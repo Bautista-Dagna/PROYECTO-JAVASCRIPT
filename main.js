@@ -1,9 +1,7 @@
 alert(`Bienvenido a De La Pipa`);
 
 const nombre = prompt(`Ingrese su nombre`);
-
 const cantidadProductos = parseInt(prompt(`Ingrese la cantidad de unidades`));
-
 const deseaEnvio = confirm(`¿Desea envío a domicilio?`);
 
 let direccionEnvio = null;
